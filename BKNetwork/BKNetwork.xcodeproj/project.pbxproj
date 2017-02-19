@@ -15,6 +15,7 @@
 		EEE009981E59D2B800CB9419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE009961E59D2B800CB9419 /* LaunchScreen.storyboard */; };
 		EEE009A31E59D2B800CB9419 /* BKNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE009A21E59D2B800CB9419 /* BKNetworkTests.m */; };
 		EEE009AE1E59D2B800CB9419 /* BKNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE009AD1E59D2B800CB9419 /* BKNetworkUITests.m */; };
+		EEE009BD1E59D5AE00CB9419 /* Persion.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE009BC1E59D5AE00CB9419 /* Persion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EEE009A91E59D2B800CB9419 /* BKNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BKNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE009AD1E59D2B800CB9419 /* BKNetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKNetworkUITests.m; sourceTree = "<group>"; };
 		EEE009AF1E59D2B800CB9419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE009BB1E59D5AE00CB9419 /* Persion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persion.h; sourceTree = "<group>"; };
+		EEE009BC1E59D5AE00CB9419 /* Persion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Persion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				EEE0098C1E59D2B800CB9419 /* AppDelegate.m */,
 				EEE0098E1E59D2B800CB9419 /* ViewController.h */,
 				EEE0098F1E59D2B800CB9419 /* ViewController.m */,
+				EEE009BB1E59D5AE00CB9419 /* Persion.h */,
+				EEE009BC1E59D5AE00CB9419 /* Persion.m */,
 				EEE009911E59D2B800CB9419 /* Main.storyboard */,
 				EEE009941E59D2B800CB9419 /* Assets.xcassets */,
 				EEE009961E59D2B800CB9419 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE009BD1E59D5AE00CB9419 /* Persion.m in Sources */,
 				EEE009901E59D2B800CB9419 /* ViewController.m in Sources */,
 				EEE0098D1E59D2B800CB9419 /* AppDelegate.m in Sources */,
 				EEE0098A1E59D2B800CB9419 /* main.m in Sources */,
@@ -514,6 +520,7 @@
 				EEE009B41E59D2B800CB9419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEE009B51E59D2B800CB9419 /* Build configuration list for PBXNativeTarget "BKNetworkTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +529,7 @@
 				EEE009B71E59D2B800CB9419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEE009B81E59D2B800CB9419 /* Build configuration list for PBXNativeTarget "BKNetworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +538,7 @@
 				EEE009BA1E59D2B800CB9419 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
