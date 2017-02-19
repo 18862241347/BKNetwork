@@ -9,5 +9,12 @@
 #import "Persion.h"
 
 @implementation Persion
-
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        NSLog(@"----");
+    }
+    return self;
+}
 @end
