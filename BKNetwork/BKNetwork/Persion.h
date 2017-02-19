@@ -10,5 +10,5 @@
 
 @interface Persion : NSObject
 @property (nonnull,copy) NSString *name;
-
+@property (nonnull,assign) NSInteger age;
 @end
