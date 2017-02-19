@@ -18,6 +18,10 @@
     [super viewDidLoad];
 
 
+    NSLog(@"hello world ");
+    
+    NSLog(@"dong");
+    
     /*zheshiyige1*/
 }
 
